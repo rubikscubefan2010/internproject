@@ -38,3 +38,13 @@ function postStartTime()
  * Sample Response = {"id":"13","time":"2016-12-22 10:48:6"}
 */
 function postEndTime()
+
+
+/*
+ * http://winksplayground.x10host.com/imageservice
+ * Receives POST variable of and image and processes it on the server.
+ * Variable should be sent as a parameter with an application/x-www-form-urlencoded or multipart/form-data Http header.
+ * Returns a string with a message indicating success or failure.
+ * Sample Response = "The file myImage.png has been uploaded."
+*/
+function imageUpload()
